@@ -1,0 +1,112 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    height: 1080px; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(/css/img/background.jpg);
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* Левая полоса */
+.green-bar {
+    width: 33%;
+    height: 1050px;
+    background-color: green;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.green-bar h1 {
+    font-size: 56px;
+    margin: 0;
+    margin-top: 120px;
+    color: black;
+}
+
+.subtitles {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.subtitle {
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 36px;
+    margin: 40px 0;
+    padding: 30px 60px;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+}
+
+/* Главное содержимое */
+main {
+    background-color: white;
+    padding: 40px 0;
+    z-index: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100%; 
+    box-sizing: border-box;
+}
+
+/* Стили для рамок */
+.frame {
+    display: inline-block;
+    width: 300px;
+    height: 150px;
+    margin: 0 20px; 
+    border: 2px solid green;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.frame p {
+    font-size: 24px;
+    margin: 0;
+    color: black;
+    text-align: center;
+}
+
+/* Футер */
+footer {
+    background-color: green;
+    text-align: center;
+    color: white;
+    padding: 20px 0;
+}
+
+.footer-background {
+    background-image: url(/css/img/footer-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -2;
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.footer-text {
+    font-size: 18px;
+}
